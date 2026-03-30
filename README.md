@@ -17,6 +17,7 @@ Then run:
 ```bash
 python main.py
 ```
+For the best experience, rename `main.py` to `main.pyw` and create a desktop shortcut so you can open it without a terminal. To do this, right click `main.pyw` → Send to → Desktop (create shortcut). Double clicking the shortcut will launch the app directly with no console window.
 
 First time you open it, you'll be asked to create a mastercode. You'll need this every time you open the app, so don't forget it — there's no way to recover it.
 
