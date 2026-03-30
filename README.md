@@ -53,7 +53,7 @@ Type a username into the username field and a password into the password field, 
 - Usernames and passwords can't contain spaces
 - Your passwords and mastercode are stored in your AppData folder, not in the project folder
 - The mastercode is hashed — if you forget it, delete `mastercode.txt` from `AppData/Roaming/PM/` and you'll be prompted to create a new one on next launch
-
+- Passwords are encrypted using a custom algorithm inspired by card deck shuffling. A character set is shuffled using two randomly generated keys and by interleaving and cutting the decks according to these keys, producing a unique substitution mapping that changes with every character encrypted. The two keys are stored alongside the ciphertext and are required to decrypt — without them the password can't be recovered
 ---
 
 ## Project Structure
@@ -61,7 +61,7 @@ Type a username into the username field and a password into the password field, 
 ```
 Password Manager/
 ├── main.py              # Main app
-├── encrypt_decrypt.py   # Handles encryption and decryption
+├── encrypt_decrypt.py   # Handles encryption and decryption of user's passwords
 ├── images/
 │   └── lock.ico         # App icon
 ```
