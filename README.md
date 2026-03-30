@@ -1,6 +1,6 @@
 # 🔐 Celil Selcuk's Password Manager
 
-A simple desktop password manager I built in Python, with the GUI made using the customTkinter library. Stores your passwords encrypted so they're never saved in plaintext, and protected behind a master code so only you can access it.
+![Password Manager Demo](PM.gif) A simple desktop password manager I built in Python, with the GUI made using the customTkinter library. Stores your passwords encrypted so they're never saved in plaintext, and protected behind a master code so only you can access it.
 
 ---
 
