@@ -1,6 +1,6 @@
-# 🔐 Celil's Password Manager
+# 🔐 Celil Selcuk's Password Manager
 
-A simple desktop password manager I built in Python. Stores your passwords encrypted so they're never saved in plaintext, and protected behind a mastercode so only you can access it.
+A simple desktop password manager I built in Python. Stores your passwords encrypted so they're never saved in plaintext, and protected behind a master code so only you can access it.
 
 ---
 
